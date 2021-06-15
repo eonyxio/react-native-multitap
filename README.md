@@ -1,6 +1,7 @@
 # react-native-multitap
 
-> React Native multi tap component with the ability to handle single tap, double tap, triple tap, long press and all other props accepted by the `Pressable` component.
+React Native multi tap component with the ability to handle single tap, double tap, triple tap, long press and all other props accepted by the `Pressable` component.
+
 
 [![](https://img.shields.io/npm/v/react-native-multitap.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-multitap)
 [![](https://img.shields.io/bundlephobia/min/react-native-multitap.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-multitap)
