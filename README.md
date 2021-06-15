@@ -10,7 +10,7 @@ React Native multi tap component with the ability to handle single tap, double t
 ## Install
 
 ```bash
-npm i -S react-native-multitap
+npm i react-native-multitap
 ```
 
 ## Usage
