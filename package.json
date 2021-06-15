@@ -1,0 +1,27 @@
+{
+  "name": "react-native-multitap",
+  "version": "0.0.1",
+  "description": "React Native multi tap component with the ability to handle single tap, double tap, triple tap, long press.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eonyxio/react-native-multitap.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "single-tap",
+    "double-tap",
+    "triple-tap",
+    "multi-tap"
+  ],
+  "author": "Anees Muzzafer Shah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eonyxio/react-native-multitap/issues"
+  },
+  "homepage": "https://github.com/eonyxio/react-native-multitap#readme"
+}
