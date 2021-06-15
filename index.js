@@ -10,14 +10,22 @@
 import React from "react";
 import { Pressable } from "react-native";
 
-var noOfTaps = 0;
+var numTaps = 0;
 
-export default DoubleTap = (props) => {
-    const { children, delay = 200, onSingleTap, onDoubleTap, onTripleTap, onNTap } = props;
+export default MultiTap = (props) => {
+    const {
+        delay = 200,
+        onSingleTap = () => {},
+        onDoubleTap = () => {},
+        onTripleTap = () => {},
+        onNTaps = () => {},
+        children,
+    } = props;
+
     const handleTaps = () => {
-        if (noOfTaps === 0) {
+        if (numTaps === 0) {
             setTimeout(() => {
-                switch (noOfTaps) {
+                switch (numTaps) {
                     case 1:
                         onSingleTap();
                         break;
@@ -28,15 +36,15 @@ export default DoubleTap = (props) => {
                         onTripleTap();
                         break;
                     default:
-                        onNTap(noOfTaps);
+                        onNTaps(numTaps);
                         break;
                 }
 
-                noOfTaps = 0;
+                numTaps = 0;
             }, delay);
         }
 
-        noOfTaps++;
+        numTaps++;
     };
 
     return <Pressable {...props} onPress={handleTaps}>{children}</Pressable>;
