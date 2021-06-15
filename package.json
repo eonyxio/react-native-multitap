@@ -1,6 +1,6 @@
 {
   "name": "react-native-multitap",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "React Native multi tap component with the ability to handle single tap, double tap, triple tap, long press and all other props accepted by the `Pressable` component.",
   "main": "index.js",
   "scripts": {
