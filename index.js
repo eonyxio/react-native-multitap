@@ -12,7 +12,7 @@ import { Pressable } from "react-native";
 
 var numTaps = 0;
 
-export default MultiTap = (props) => {
+const MultiTap = (props) => {
     const {
         delay = 200,
         onSingleTap = () => {},
@@ -49,3 +49,5 @@ export default MultiTap = (props) => {
 
     return <Pressable {...props} onPress={handleTaps}>{children}</Pressable>;
 };
+
+export default MultiTap;
